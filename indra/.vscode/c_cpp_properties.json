@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/vishwas/Projects/RoboCup/ros_workspace/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/vishwas/Projects/RoboCup/ros_workspace/src/indra/include",
+                "/home/vishwas/Projects/RoboCup/ros_workspace/src/vrep_ros_interface/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11"
+        }
+    ],
+    "version": 4
+}

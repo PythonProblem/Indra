@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<robot name="indra">
+
+<link name="link_chassis">
+    <!-- pose and inertial -->
+    <pose>0 0 0.1 0 0 0</pose>
+    <inertial>
+      <mass value="3.600e-01"/>
+      <origin rpy="0 0 0" xyz="0 0 0.1"/>
+      <inertia ixx="2.314e-03" ixy="9.103e-13" ixz="1.306e-11" iyy="4.319e-03" iyz="-5.082e-05" izz="4.073e-03"/>
+    </inertial>
+    
+    <!-- body -->
+    <collision name="collision_chassis">
+      <geometry>
+        <mesh filename="package://indra/model/stl/hip.stl" scale="1 1 1" />
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 1"/>
+      <geometry>
+        <mesh filename="package://indra/model/stl/hip.stl" scale="1 1 1" />
+      </geometry>
+    </visual>
+
+  </link>
+</robot>

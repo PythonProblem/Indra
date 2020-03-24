@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+import rospy
+from indra.msg import anglearray
+
+try:
+    while (1):
+        pub = rospy.Publisher("angles", anglearray, queue_size=10)
+        rospy.init_node('angle_pulisher', anonymous=False)
+        l = [90, 0, 0, 90, 90, 90, 90, 90, 90, 90, 90, 90, 90, 0, 0, 90, 90]
+        rate = rospy.Rate(10)
+        pub.publish(l)
+        rate.sleep()
+except rospy.ROSInterruptException:
+    pass

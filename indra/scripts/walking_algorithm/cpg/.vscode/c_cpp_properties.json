@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/vishwas/Projects/RoboCup/ros_workspace/devel/include",
+        "/opt/ros/kinetic/include",
+        "/home/vishwas/Projects/RoboCup/ros_workspace/src/indra/include",
+        "/home/vishwas/Projects/RoboCup/ros_workspace/src/vrep_ros_interface/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}
